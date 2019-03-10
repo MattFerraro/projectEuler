@@ -7,13 +7,13 @@ def main(max_n):
         c = a + b
         a = b
         b = c
-        print(c)
 
         if c % 2 == 0:
             s += c
 
         if c >= max_n:
             break
+
     print(f"Sum: {s}")
 
 
